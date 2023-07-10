@@ -1,0 +1,65 @@
+html {
+    background-image: url("background.png");
+    font-family:'VCR OSD Mono';
+}
+
+.logo {
+    width: 250px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.completeTitle {
+    display: flex;
+}
+
+.title  {
+    color: white;
+    font-size: xxx-large;
+    text-shadow: 4px 0 #283d99, -4px 0 #283d99, 0 4px #283d99, 0 -4px #283d99,    2px 2px #283d99, -2px -2px #283d99, 2px -2px #283d99, -2px 2px #283d99;
+}
+
+.instructions {
+    color: white;
+    font-size: 18px;
+    max-width: 800px;
+    text-align: center;
+    font-weight: bold;
+}
+.main-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+   background-color: transparent; 
+   opacity: 0.5;
+   border: none;
+}
+
+#reset {
+    text-decoration: none;
+    color: #283d99;
+    font-size: larger;
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.main-Container .points {
+    font-size:x-large;
+    display: flex;
+    color: white;
+    margin: 0;
+    gap: 200px;
+    text-shadow: 4px 0 #283d99, -4px 0 #283d99, 0 4px #283d99, 0 -4px #283d99,    2px 2px #283d99, -2px -2px #283d99, 2px -2px #283d99, -2px 2px #283d99;
+}
+
+.resetBtn {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
